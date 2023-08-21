@@ -6,7 +6,7 @@ A utility to read the WinSCP INI file. WinSCP is one of the more popular open so
 
 So I wrote this very basic, rough-around-edges util that will spit out the key WinSCP INI file metadata in JSON format to the STDOUT, which can then be converted to PowerShell/.Net objects.
 
-This not to to be used production and I do not make any warranty on it. WinSCP stores a lot of infomation in relatively easy to extract clear text, especially passwords and keys. Feel free to use parts of the code for educational purposes.
+This not to to be used production and I do not make any warranty on it. WinSCP stores a lot of infomation in relatively easy to extract clear text which is no secret and Martin Prikryl makes this very clear in his notes about WinSCP, that you should never store passwords in the INI. Feel free to use parts of my code purely for educational purposes.
 
 
 
