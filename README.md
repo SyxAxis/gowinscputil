@@ -2,7 +2,9 @@
 
 
 
-A utility to read the WinSCP INI file. WinSCP is one of the more popular open source SFTP clients on Windows and having used it extensively I needed a way to read entries out of the WinSCP INI file and use them in golang code especially SFTP calls.
+A utility written in Golang used to read the WinSCP INI file.
+
+WinSCP is one of the more popular open source SFTP clients on Windows and having used it extensively I needed a way to read entries out of the WinSCP INI file and use them in golang code especially SFTP calls.
 
 So I wrote this very basic, rough-around-edges util that will spit out the key WinSCP INI file metadata in JSON format to the STDOUT, which can then be converted to PowerShell/.Net objects.
 
