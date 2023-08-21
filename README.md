@@ -10,6 +10,7 @@ So I wrote this very basic, rough-around-edges util that will spit out the key W
 
 This not to to be used production and I do not make any warranty on it. WinSCP stores a lot of infomation in relatively easy to extract clear text which is no secret and Martin Prikryl makes this very clear in his notes about WinSCP, that you should never store passwords in the INI. Feel free to use parts of my code purely for educational purposes.
 
+( There is a REST server in there as well that most certainly should not be used as it will transmit sec info!! )
 
 
 WinSCP utility, libraries and code are copyright and ownership of Martin Prikryl.
